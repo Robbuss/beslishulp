@@ -1,0 +1,113 @@
+/*Now the CSS*/
+/* thuisbasis kleuren:
+*groen: #71c259
+*paars: #8b287f
+*font: Open Sans Condensed
+*/
+
+html{
+font-family: sans-serif;
+font-size: .8em;
+padding: 50px;
+overflow:hidden;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.main{
+width:70%;
+padding-right:17px;
+}
+.sidebar{
+width:30%;
+}
+.row{
+min-height:55px!important;
+}
+.auto{
+
+margin: 0 auto;
+
+}
+.side{
+
+float:left;
+}
+
+.inline{
+display:inline;
+}
+.right{
+float:right;
+}
+.left{
+float:left;
+}
+.width{
+width:320px !important;
+}
+.padding{
+padding-top:15px;
+padding-bottom:15px;
+}
+.bg{
+background-color: #71c259;
+}
+.bg:hover {
+  background-color: #f38901;
+  cursor:pointer;
+}
+
+.logo {
+width: 250px;
+display:block;
+padding:20px;
+float:left;
+}
+#zin{
+margin-left:5px;
+}
+#zin a, #pgb a, #herindicatie a{
+padding:15px;
+}
+#afsluiting{
+margin-top:50px;
+}
+#flowchart {
+   /* max-width: 580px;*/
+    text-align: center;
+    margin: auto;
+}
+#flowchart a {
+    color: white;
+    text-decoration: none;
+  /* padding: 2em 1em;*/
+}
+.decision {
+    margin: 0 auto;
+    position: relative;
+    margin-top:35px;
+    margin-bottom:35px;
+}
+.alt{
+  position:relative !important;
+  margin-bottom:0px  !important;
+  margin-top:0px  !important;
+}
+.decision img{
+ width: 50px;
+margin-left:auto;
+margin-right:auto;
+}
+.decision img:hover{
+    cursor:pointer;
+    
+}
+.space {
+    width: 1px;
+    height: 60px;
+} 
+.clear {
+    clear:both;
+}              
+
